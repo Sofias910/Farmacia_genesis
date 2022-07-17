@@ -1,0 +1,30 @@
+.top{
+    background: linear-gradient(253.68deg, rgba(0, 142, 161, 0) 0.82%, #008EA1 99.67%);
+    width: 1800px;
+    height: 546.41px;
+
+    cursor: pointer;
+
+    color: white;
+}
+
+.top h1{
+    position: relative;
+    left: 9rem;
+    bottom: 3rem;
+
+    font-size: 2.5rem;
+    font-weight: 1400;
+}
+
+.flecha{
+    position: relative;
+    top: 1.5rem;
+    left: 3.5rem;
+}
+
+.logo1{
+    position: relative;
+    bottom: 7rem;
+    left: 35rem;
+}

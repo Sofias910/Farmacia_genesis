@@ -1,0 +1,155 @@
+/*PRIMERA PARTE*/
+
+.hea1{
+    width: 1600px;
+    height: 80px; 
+
+    cursor: text;
+
+    position: relative;
+    top: 2rem;
+    left: 6rem; 
+    
+}
+
+.BTa{
+    position: relative;
+    top: 6rem;
+    left: 6rem;
+}
+
+.BTb{
+    position: relative;
+    bottom: 6rem;
+    left: 44rem;
+}
+
+.BTc{
+    position: relative;
+    bottom: 18rem;
+    left: 81rem;
+}
+
+/*SEGUNDA PARTE*/
+
+.hea2{
+    width: 1600px;
+    height: 80px; 
+
+    position: relative;
+    bottom: 12rem;
+    left: 6rem; 
+    
+}
+
+.galeria{
+    position: relative;
+    left: 12rem;
+    bottom: 7rem;
+    cursor: pointer;
+}
+
+/*TERCERA PARTE*/
+
+.hea3{
+    width: 1600px;
+    height: 80px; 
+
+
+    position: relative;
+    bottom: 2rem;
+    left: 6rem; 
+}
+
+.labsG{
+    position: relative;
+    top: 1rem;
+    left: 15rem;
+
+    cursor: pointer;
+}
+
+/*CUARTA PARTE*/
+.btsA{
+    color: #1A5E53;
+    font-size: 2rem;
+}
+
+.btsA h1{
+    padding-bottom: 2rem;
+}
+
+.Bto1{
+    background-color: #227D1F;
+    border-radius: 100rem;
+    transition: all .5s; 
+    cursor: pointer;
+        
+    width: 13rem;
+    height: 13rem;
+}
+
+.Bto1 img{
+    display: block;
+    padding: 3rem;
+}
+
+.tags{
+    position: relative;
+    right: 0.5rem;
+}
+
+.Bto1:hover{
+    background-color: #219CAC;
+    transition: all .5s;
+}
+
+/*BOTONES POSICIÓN*/
+
+.BotonBot1{
+    position: relative;
+    left: 8rem;
+    top: 7rem;
+}
+.BotonBot2{
+    position: relative;
+    left: 48rem;
+    bottom: 12rem;
+}
+.BotonBot3{
+    position: relative;
+    left: 88rem;
+    bottom: 31rem;
+
+}
+
+/*QUINTA PARTE*/
+
+.banIm{
+    position: relative;
+    left: 10rem;
+    bottom: 20rem;
+}
+
+.Redes{
+    color: #1A5E53;
+    font-size: 3rem;
+
+    position: relative;
+    left: 8rem;
+    bottom: 13rem;
+    transition: all .5s;
+}
+
+.Redes:hover{
+    text-decoration: underline;
+    transition: all .5s;
+    color: #227D1F;
+}
+
+.RedesL{
+    position: relative;
+    left: 45rem;
+    bottom: 18rem;
+    cursor: pointer;
+}
