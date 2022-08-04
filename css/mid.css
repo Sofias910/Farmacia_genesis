@@ -19,6 +19,7 @@
 /*SEGUNDA PARTE*/
 .gal {
     width: 100%;
+
 }
 
 .gal img{
@@ -26,6 +27,24 @@
     height: 100%;
     margin: 2%;
     object-fit: scale-down;
+}
+
+
+.gal div{
+    width: 100%;
+    background-image: url(/img/Galeria.png);
+    opacity: 5;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+}
+
+.gal div div{
+  width: 385px;
+  height: 285px;
+  margin: 1%;
+  background: none;
 }
 /*TERCERA PARTE*/
 
@@ -106,6 +125,7 @@
     transition: all .5s;
 }
 
+
 .Redes:hover{
     text-decoration: underline;
     transition: all .5s;
@@ -114,4 +134,12 @@
 
 .Redes img{
     width: 7%;
+}
+
+.redes{
+    width: 5%;
+}
+
+.redes a{
+    text-decoration: none;
 }
