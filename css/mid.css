@@ -32,8 +32,6 @@
 
 .gal div{
     width: 100%;
-    background-image: url(/img/Galeria.png);
-    opacity: 5;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -43,8 +41,12 @@
 .gal div div{
   width: 385px;
   height: 285px;
-  margin: 1%;
-  background: none;
+  margin: 5%;
+}
+
+
+.gal div div img{
+    width: 50%;
 }
 /*TERCERA PARTE*/
 
@@ -73,7 +75,7 @@
 }
 
 .Bto1{
-    width: 30%;
+    max-width: 10%;
     min-width: 12rem;
     min-height: 12rem;
     background-color: #227D1F;
@@ -89,6 +91,25 @@
     object-fit: scale-down;
 
 }
+
+@media only screen and (max-width: 375px) {
+    
+    .Bto1{
+        max-width: 10%;
+        min-width: 3rem;
+        min-height: 3rem;
+        background-color: #227D1F;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 100%;
+        transition: all .5s; 
+        cursor: pointer;
+    }
+
+
+
+  }
+
 
 .tags{
     position: relative;
@@ -108,6 +129,8 @@
     margin: 5% 0% 2% 0%;
 }
 
+
+
 .Redes{
     width: 100%;
     height: max-content;
@@ -119,10 +142,20 @@
 
 
 .Redes h1{
-    width: 70%;
+    width: 60%;
     color: #1A5E53;
     font-size: 2.5vw;
     transition: all .5s;
+}
+
+.Redes a{
+    width: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Redes img{
+    max-width: 50%;
 }
 
 
@@ -132,14 +165,52 @@
     color: #227D1F;
 }
 
-.Redes img{
-    width: 7%;
+/*elementos js*/
+
+.imgantibioticos{
+    display: none;
 }
 
-.redes{
-    width: 5%;
+.verimg{
+    display: flex;
 }
 
-.redes a{
-    text-decoration: none;
+.imgensure{
+    display: none;
+}
+
+.vere{
+    display: flex;
+}
+
+.verpopulares{
+    display: none;
+}
+
+.imgpopulares{
+    display: flex;
+}
+
+.vervaporub{
+    display: none;
+}
+
+.imgvaporub{
+    display: flex;
+}
+
+.vercerave{
+    display: none;
+}
+
+.imgcerave{
+    display: flex;
+}
+
+.vermniños{
+    display: none;
+}
+
+.imgmniños{
+    display: flex;
 }
